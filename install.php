@@ -9,6 +9,7 @@
 require "config.php";
 
 try {
+  // PDO requires 4 parameters (DataSourceName, username, password, additional options)
   $connection = new PDO("mysql:host=$host", $username, $password, $options);
   $sql = file_get_contents("data/init.sql");
   $connection->exec($sql);
