@@ -1,4 +1,6 @@
-<footer class="row text-center">
+    <p>Return to <a href="../index.html">Home</a></p>
+    
+    <footer class="row text-center">
       <address>
         McCar Headquarters &#8226; 21 Car Ln. &#8226; Louisville, KY &#8226;
         502.123.4567
